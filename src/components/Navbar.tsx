@@ -53,13 +53,13 @@ export const Navbar = () => {
               </li>
             ))}
             <li>
-              <a href={`${import.meta.env.BASE_URL}Rodney-Ducay-CV.pdf`} target="_blank" rel="noopener noreferrer" className="nav-cv-link">
+              <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" className="nav-cv-link">
                 <FileText size={16} style={{ marginRight: '4px', verticalAlign: 'middle' }} /> CV
               </a>
             </li>
           </ul>
           <div className="nav-socials">
-            <a href={`${import.meta.env.BASE_URL}Rodney-Ducay-CV.pdf`} target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+            <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
               <Github size={20} />
             </a>
             <a href="mailto:rhoanneyacud@gmail.com" aria-label="Email Rodney">
@@ -90,7 +90,7 @@ export const Navbar = () => {
             </li>
           ))}
           <li>
-            <a href="/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
+            <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
               <FileText size={16} style={{ marginRight: '6px', verticalAlign: 'middle' }} /> View CV
             </a>
           </li>

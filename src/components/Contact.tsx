@@ -67,10 +67,10 @@ export const Contact = () => {
             </div>
 
             <div className="contact-cv-actions">
-              <a href={`${import.meta.env.BASE_URL}Rodney-Ducay-CV.pdf`} download={`${import.meta.env.BASE_URL}Rodney-Ducay-CV.pdf`} className="btn btn-outline" style={{ marginTop: '2rem', display: 'inline-flex', width: '100%' }}>
+              <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" download="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" className="btn btn-outline" style={{ marginTop: '2rem', display: 'inline-flex', width: '100%' }}>
                 <Download size={18} /> Download CV PDF
               </a>
-              <a href="/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ marginTop: '0.75rem', display: 'inline-flex', width: '100%' }}>
+              <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ marginTop: '0.75rem', display: 'inline-flex', width: '100%' }}>
                 <FileText size={18} /> View CV in New Tab
               </a>
             </div>

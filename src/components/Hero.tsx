@@ -66,10 +66,10 @@ export const Hero = () => {
             <a href="#projects" className="btn btn-primary">
               View My Work <ArrowRight size={18} />
             </a>
-            <a href={`${import.meta.env.BASE_URL}Rodney-Ducay-CV.pdf`} download={`${import.meta.env.BASE_URL}Rodney-Ducay-CV.pdf`} className="btn btn-outline" aria-label="Download CV PDF">
+            <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" download="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" className="btn btn-outline" aria-label="Download CV PDF">
               <Download size={18} /> Download CV
             </a>
-            <a href="/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline" aria-label="View CV PDF in new tab">
+            <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline" aria-label="View CV PDF in new tab">
               <FileText size={18} /> View CV
             </a>
             <a href="https://github.com/rodney93" target="_blank" rel="noopener noreferrer" className="btn btn-outline" aria-label="GitHub Profile">
