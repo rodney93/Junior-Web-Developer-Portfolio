@@ -41,8 +41,8 @@ export const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
-        <a href="#" className="nav-logo">
-          RD<span>.</span>
+        <a href="/Junior-Web-Developer-Portfolio/" className="nav-logo" aria-label="Rodney Ducay - Home">
+          Rodney <span>Ducay</span>
         </a>
 
         <div className="nav-desktop">

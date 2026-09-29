@@ -23,12 +23,19 @@
 }
 
 .nav-logo {
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: -1px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 200ms ease;
 }
 
 .nav-logo span {
+  color: var(--accent-color);
+}
+
+.nav-logo:hover {
   color: var(--accent-color);
 }
 
@@ -157,6 +164,10 @@
 }
 
 @media (max-width: 768px) {
+  .nav-logo {
+    font-size: 1.1rem;
+  }
+
   .nav-desktop {
     display: none;
   }
