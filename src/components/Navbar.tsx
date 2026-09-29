@@ -62,7 +62,7 @@ export const Navbar = () => {
             <a href="https://github.com/rodney93" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/rodney-ducay/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+            <a href="https://ph.linkedin.com/in/caydu" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
               <Linkedin size={20} />
             </a>
             <a href="mailto:rhoanneyacud@gmail.com" aria-label="Email Rodney">
@@ -93,7 +93,7 @@ export const Navbar = () => {
             </li>
           ))}
           <li>
-            <a href="https://www.linkedin.com/in/rodney-ducay/" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
+            <a href="https://ph.linkedin.com/in/caydu" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
               <Linkedin size={16} style={{ marginRight: '6px', verticalAlign: 'middle' }} /> LinkedIn
             </a>
           </li>
