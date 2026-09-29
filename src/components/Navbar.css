@@ -35,12 +35,12 @@
 .nav-desktop {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 1.75rem;
   align-items: center;
 }
 
@@ -48,11 +48,18 @@
   font-weight: 500;
   font-size: 0.9375rem;
   color: var(--text-muted);
-  transition: color 0.2s;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.nav-links a:hover {
-  color: var(--accent-color);
+.nav-hover-link {
+  position: relative;
+  display: inline-block;
+  transition: color 200ms ease, transform 200ms ease !important;
+}
+
+.nav-hover-link:hover {
+  color: var(--accent-color) !important;
+  transform: translateY(-2px);
 }
 
 .nav-cv-link {
@@ -61,12 +68,13 @@
   padding: 0.35rem 0.875rem;
   border-radius: 2rem;
   border: 1px solid rgba(56, 189, 248, 0.3);
-  transition: all 0.2s ease !important;
+  transition: all 200ms ease !important;
 }
 
 .nav-cv-link:hover {
   background-color: var(--accent-color) !important;
   color: #0f172a !important;
+  transform: translateY(-2px);
 }
 
 .nav-socials {
@@ -75,8 +83,13 @@
   color: var(--text-muted);
 }
 
+.nav-socials a {
+  transition: color 200ms ease, transform 200ms ease;
+}
+
 .nav-socials a:hover {
   color: var(--accent-color);
+  transform: translateY(-2px);
 }
 
 .nav-toggle {
@@ -143,12 +156,17 @@
   .nav-mobile-links {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.75rem;
     align-items: flex-start;
   }
 
   .nav-mobile-links a {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 600;
+    transition: color 200ms ease;
+  }
+
+  .nav-mobile-links a:hover {
+    color: var(--accent-color);
   }
 }

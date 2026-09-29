@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Github, Mail, FileText } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, FileText } from 'lucide-react';
 import './Navbar.css';
 
 export const Navbar = () => {
@@ -49,7 +49,7 @@ export const Navbar = () => {
           <ul className="nav-links">
             {navLinks.map((link) => (
               <li key={link.name}>
-                <a href={link.href}>{link.name}</a>
+                <a href={link.href} className="nav-hover-link">{link.name}</a>
               </li>
             ))}
             <li>
@@ -59,8 +59,11 @@ export const Navbar = () => {
             </li>
           </ul>
           <div className="nav-socials">
-            <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+            <a href="https://github.com/rodney93" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
               <Github size={20} />
+            </a>
+            <a href="https://www.linkedin.com/in/rodney-ducay/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+              <Linkedin size={20} />
             </a>
             <a href="mailto:rhoanneyacud@gmail.com" aria-label="Email Rodney">
               <Mail size={20} />
@@ -89,6 +92,11 @@ export const Navbar = () => {
               </a>
             </li>
           ))}
+          <li>
+            <a href="https://www.linkedin.com/in/rodney-ducay/" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
+              <Linkedin size={16} style={{ marginRight: '6px', verticalAlign: 'middle' }} /> LinkedIn
+            </a>
+          </li>
           <li>
             <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
               <FileText size={16} style={{ marginRight: '6px', verticalAlign: 'middle' }} /> View CV
