@@ -98,6 +98,11 @@ export const Navbar = () => {
             </a>
           </li>
           <li>
+            <a href="mailto:rhoanneyacud@gmail.com" onClick={() => setIsOpen(false)}>
+              <Mail size={16} style={{ marginRight: '6px', verticalAlign: 'middle' }} /> Email Me
+            </a>
+          </li>
+          <li>
             <a href="/Junior-Web-Developer-Portfolio/Rodney-Ducay-CV.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
               <FileText size={16} style={{ marginRight: '6px', verticalAlign: 'middle' }} /> View CV
             </a>
